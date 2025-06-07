@@ -83,6 +83,7 @@ async function run() {
   console.log(`  cd ${projectName}`);
   console.log(`  pnpm install`);
   console.log(`  pnpm run dev`);
+  process.exit(0);
 }
 
 run();

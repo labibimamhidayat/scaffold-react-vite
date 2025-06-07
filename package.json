@@ -1,0 +1,24 @@
+{
+  "name": "scaffold-react-vite",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "node build.mjs"
+  },
+  "bin": {
+    "scaffold-react-vite": "./dist/create-myapp.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "degit": "^2.8.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5"
+  }
+}
